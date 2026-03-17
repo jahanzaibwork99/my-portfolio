@@ -1,6 +1,6 @@
 import { SectionWrapper } from '@/components/layout/SectionWrapper';
 import { motion } from 'framer-motion';
-import { Lightbulb, Rocket, ShieldCheck, Github, Linkedin, Mail, ArrowRight, Download } from 'lucide-react';
+import { Lightbulb, Rocket, ShieldCheck, Github, Linkedin, Mail, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function About() {
