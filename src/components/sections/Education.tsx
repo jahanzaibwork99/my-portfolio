@@ -1,6 +1,6 @@
 import { SectionWrapper } from '@/components/layout/SectionWrapper';
 import { motion } from 'framer-motion';
-import { GraduationCap, Award } from 'lucide-react';
+import { GraduationCap, BookOpen, School } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 
 const education = [
@@ -16,14 +16,14 @@ const education = [
     institution: 'The Reader College Sargodha',
     period: '2019-2021',
     score: 'Marks: A+',
-    icon: <Award className="w-10 h-10 text-accent" />,
+    icon: <BookOpen className="w-10 h-10 text-indigo-400" />,
   },
   {
     degree: 'Matriculation',
     institution: 'Govt. High School Lakseen',
     period: '2017-2019',
     score: 'Marks: A+',
-    icon: <Award className="w-10 h-10 text-muted-foreground" />,
+    icon: <School className="w-10 h-10 text-sky-400" />,
   },
 ];
 
