@@ -23,9 +23,9 @@ export function About() {
   ];
 
   const socialLinks = [
-    { icon: <Github className="h-5 w-5" />, href: "https://github.com", label: "GitHub" },
-    { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: <Mail className="h-5 w-5" />, href: "mailto:hello@example.com", label: "Email" },
+    { icon: <Github className="h-5 w-5" />, href: "https://github.com/jahanzaibwork99", label: "GitHub" },
+    { icon: <Linkedin className="h-5 w-5" />, href: "www.linkedin.com/in/muhammad-jahanzaib-s099", label: "LinkedIn" },
+    { icon: <Mail className="h-5 w-5" />, href: "jahanzaibwork99@gmail.com", label: "Email" },
   ];
 
   return (
