@@ -8,7 +8,7 @@ const experiences = [
     role: 'Junior Web Developer',
     company: 'QuantumQore Technologies',
     location: 'Remote / On-site',
-    duration: '2024 - Present',
+    duration: 'Oct 2025 - Present',
     description: [
       'Developed and maintained highly responsive user interfaces using React.js and Tailwind CSS.',
       'Architected and implemented robust backend APIs using PHP and the Laravel framework.',
@@ -21,7 +21,7 @@ const experiences = [
     role: 'Web Developer Intern',
     company: 'QuantumQore Technologies',
     location: 'Remote / On-site',
-    duration: '2023 - 2024',
+    duration: 'July 2025 - Sep 2025',
     description: [
       'Assisted senior developers in building and optimizing e-commerce web applications.',
       'Resolved frontend UI bugs and improved legacy PHP codebases for better maintainability.',
