@@ -42,7 +42,7 @@ export function Contact() {
                 <div className="flex flex-col">
                   <span className="text-sm font-medium text-muted-foreground">Email</span>
                   <a href="mailto:contact@example.com" className="text-lg font-semibold hover:text-primary transition-colors">
-                    hello@quantumqore.dev
+                    jahanzaibwork99@gmail.com
                   </a>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export function Contact() {
                 <div className="flex flex-col">
                   <span className="text-sm font-medium text-muted-foreground">Phone</span>
                   <a href="tel:+1234567890" className="text-lg font-semibold hover:text-primary transition-colors">
-                    +1 (234) 567-890
+                    +192 323 1700231
                   </a>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export function Contact() {
                 <div className="flex flex-col">
                   <span className="text-sm font-medium text-muted-foreground">Location</span>
                   <span className="text-lg font-semibold">
-                    Punjab, Pakistan
+                    Sargodha Punjab, Pakistan
                   </span>
                 </div>
               </div>
