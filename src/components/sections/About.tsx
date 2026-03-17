@@ -83,21 +83,6 @@ export function About() {
                 Hire Me
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Button>
-              
-              <a 
-                href="/Jahanzaib Resume.pdf" 
-                download="Muhammad_Jahanzaib_Resume.pdf"
-                className="w-full sm:w-auto"
-              >
-                <Button 
-                  variant="outline"
-                  size="lg" 
-                  className="rounded-full px-10 gap-2 w-full"
-                >
-                  <Download className="mr-2 h-4 w-4" />
-                  Download CV
-                </Button>
-              </a>
             </div>
             
             <div className="flex items-center gap-4">
