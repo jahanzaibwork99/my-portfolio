@@ -54,7 +54,7 @@ export function Contact() {
                 <div className="flex flex-col">
                   <span className="text-sm font-medium text-muted-foreground">Phone</span>
                   <a href="tel:+1234567890" className="text-lg font-semibold hover:text-primary transition-colors">
-                    +192 323 1700231
+                    +92 323 1700231
                   </a>
                 </div>
               </div>
