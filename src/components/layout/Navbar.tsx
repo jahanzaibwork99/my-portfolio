@@ -57,7 +57,7 @@ export function Navbar() {
             onClick={(e) => scrollToSection(e, '#hero')}
             className="text-xl font-bold tracking-tighter"
           >
-            Dev<span className="text-primary">Portfolio</span>
+            Jay<span className="text-primary">Portfolio</span>
           </a>
         </motion.div>
 
