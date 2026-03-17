@@ -13,7 +13,7 @@ export function Footer() {
 
           <div className="flex flex-col gap-4">
             <a href="#hero" className="text-2xl font-bold tracking-tighter">
-              Dev<span className="text-primary">Portfolio</span>
+              Jay<span className="text-primary">Portfolio</span>
             </a>
             <p className="text-muted-foreground text-sm max-w-[280px]">
               Building modern, scalable, and responsive web applications with a focus on exceptional user experiences.
