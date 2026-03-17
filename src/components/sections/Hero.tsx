@@ -66,14 +66,20 @@ export function Hero() {
             View Projects
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            className="rounded-full px-8 w-full sm:w-auto bg-background/50 backdrop-blur-sm"
+          <a 
+            href="/Jahanzaib Resume.pdf" 
+            download="Muhammad_Jahanzaib_Resume.pdf"
+            className="w-full sm:w-auto"
           >
-            <Download className="mr-2 h-4 w-4" />
-            Download Resume
-          </Button>
+            <Button
+              variant="outline"
+              size="lg"
+              className="rounded-full px-8 w-full bg-background/50 backdrop-blur-sm"
+            >
+              <Download className="mr-2 h-4 w-4" />
+              Download Resume
+            </Button>
+          </a>
         </motion.div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 import { SectionWrapper } from '@/components/layout/SectionWrapper';
 import { motion } from 'framer-motion';
-import { Lightbulb, Rocket, ShieldCheck, Github, Linkedin, Mail, ArrowRight } from 'lucide-react';
+import { Lightbulb, Rocket, ShieldCheck, Github, Linkedin, Mail, ArrowRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function About() {
@@ -74,14 +74,31 @@ export function About() {
             transition={{ delay: 0.3 }}
             className="flex flex-col items-center gap-6"
           >
-            <Button 
-              size="lg" 
-              className="rounded-full px-10 gap-2 group shadow-xl shadow-primary/20"
-              onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Hire Me
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
+              <Button 
+                size="lg" 
+                className="rounded-full px-10 gap-2 group shadow-xl shadow-primary/20 w-full sm:w-auto"
+                onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Hire Me
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </Button>
+              
+              <a 
+                href="/Jahanzaib Resume.pdf" 
+                download="Muhammad_Jahanzaib_Resume.pdf"
+                className="w-full sm:w-auto"
+              >
+                <Button 
+                  variant="outline"
+                  size="lg" 
+                  className="rounded-full px-10 gap-2 w-full"
+                >
+                  <Download className="mr-2 h-4 w-4" />
+                  Download CV
+                </Button>
+              </a>
+            </div>
             
             <div className="flex items-center gap-4">
               {socialLinks.map((social, i) => (
