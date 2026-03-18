@@ -14,14 +14,14 @@ const education = [
   {
     degree: 'ICS (Intermediate in Computer Science)',
     institution: 'The Reader College Sargodha',
-    period: '2019-2021',
+    period: '2019 - 2021',
     score: 'Grade: A+',
     icon: <BookOpen className="w-10 h-10 text-indigo-400" />,
   },
   {
     degree: 'Matriculation',
     institution: 'Govt. High School Lakseen',
-    period: '2017-2019',
+    period: '2017 - 2019',
     score: 'Grade: A+',
     icon: <School className="w-10 h-10 text-sky-400" />,
   },
