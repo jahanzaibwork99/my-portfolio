@@ -6,7 +6,7 @@ const skillCategories = [
   {
     title: 'Frontend Development',
     icon: <Layers className="w-6 h-6 text-blue-500" />,
-    skills: ['React.js', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML5', 'CSS3', 'Framer Motion'],
+    skills: ['React.js', 'Next.js','JavaScript (ES6+)', 'Tailwind CSS', 'HTML5', 'CSS3','shadcn/ui','Framer Motion','three.js fiber'],
   },
   {
     title: 'Backend Development',
@@ -21,7 +21,7 @@ const skillCategories = [
   {
     title: 'Tools & Workflows',
     icon: <PenTool className="w-6 h-6 text-orange-500" />,
-    skills: ['Git', 'GitHub', 'Postman', 'VS Code', 'Figma', 'Composer', 'NPM'],
+    skills: ['Git', 'GitHub', 'Postman','Mockoon', 'VS Code', 'Figma', 'Composer', 'NPM'],
   },
 ];
 
