@@ -14,8 +14,8 @@ const projects = [
     liveLink: '#',
   },
   {
-    title: 'HRMS / CMS Modules',
-    description: 'Custom HR Management System modules built during my tenure. Streamlined employee data management, attendance tracking, and internal content publishing for enterprise use.',
+    title: 'Integrated ERP Modules',
+    description: 'Developed and integrated core enterprise modules: Auth, EMS, HRMS, PMS, CMS, and FMS. focused on streamlining enterprise workflows, data management, and operational efficiency.',
     techStack: ['PHP', 'Laravel', 'JavaScript', 'Bootstrap', 'MySQL'],
     githubLink: '#',
     liveLink: '#',
