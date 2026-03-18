@@ -28,44 +28,44 @@ export function Contact() {
           transition={{ duration: 0.5 }}
           className="flex flex-col gap-8"
         >
-          <div className="bg-secondary/40 p-8 rounded-3xl border border-border/50 shadow-sm">
+          <div className="bg-secondary/40 p-6 sm:p-8 rounded-3xl border border-border/50 shadow-sm">
             <h3 className="text-2xl font-bold mb-6">Let's talk about everything!</h3>
             <p className="text-muted-foreground mb-8 text-lg">
               Don't like forms? Send me an email directly or find me on my social media platforms.
             </p>
 
             <div className="flex flex-col gap-6">
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-primary/10 text-primary rounded-full">
-                  <Mail className="w-6 h-6" />
+               <div className="flex items-start gap-3 sm:gap-4">
+                <div className="p-2 sm:p-3 bg-primary/10 text-primary rounded-full shrink-0">
+                  <Mail className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-sm font-medium text-muted-foreground">Email</span>
-                  <a href="mailto:jahanzaibwork99@gmail.com" className="text-lg font-semibold hover:text-primary transition-colors break-all">
+                  <a href="mailto:jahanzaibwork99@gmail.com" className="text-base sm:text-lg font-semibold hover:text-primary transition-colors break-words">
                     jahanzaibwork99@gmail.com
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-primary/10 text-primary rounded-full">
-                  <Phone className="w-6 h-6" />
+               <div className="flex items-start gap-3 sm:gap-4">
+                <div className="p-2 sm:p-3 bg-primary/10 text-primary rounded-full shrink-0">
+                  <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-sm font-medium text-muted-foreground">Phone</span>
-                  <a href="tel:+1234567890" className="text-lg font-semibold hover:text-primary transition-colors">
+                  <a href="tel:+1234567890" className="text-base sm:text-lg font-semibold hover:text-primary transition-colors">
                     +92 323 1700231
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-primary/10 text-primary rounded-full">
-                  <MapPin className="w-6 h-6" />
+               <div className="flex items-start gap-3 sm:gap-4">
+                <div className="p-2 sm:p-3 bg-primary/10 text-primary rounded-full shrink-0">
+                  <MapPin className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-sm font-medium text-muted-foreground">Location</span>
-                  <span className="text-lg font-semibold">
+                   <span className="text-base sm:text-lg font-semibold">
                     Sargodha Punjab, Pakistan
                   </span>
                 </div>
