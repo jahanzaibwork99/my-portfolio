@@ -6,17 +6,17 @@ import { Button } from '@/components/ui/button';
 export function About() {
   const highlights = [
     {
-      icon: <Lightbulb className="h-5 w-5 text-primary" />,
+      icon: <Lightbulb className="h-5 w-5" />,
       title: 'Creative Problem Solving',
       description: 'I enjoy tackling complex challenges and finding elegant, efficient solutions.',
     },
     {
-      icon: <Rocket className="h-5 w-5 text-primary" />,
+      icon: <Rocket className="h-5 w-5" />,
       title: 'Continuous Growth',
       description: 'The tech world moves fast, and I’m always learning to stay ahead of the curve.',
     },
     {
-      icon: <ShieldCheck className="h-5 w-5 text-primary" />,
+      icon: <ShieldCheck className="h-5 w-5" />,
       title: 'Quality Focused',
       description: 'I believe in writing clean, maintainable code that stands the test of time.',
     },
@@ -126,7 +126,7 @@ export function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-border/50">
             {highlights.map((item, i) => (
               <div key={i} className="flex flex-col gap-4 p-5 rounded-2xl bg-background/50 border border-border/50 hover:border-primary/40 transition-all group">
-                <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
+                <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
                   {item.icon}
                 </div>
                 <div>
