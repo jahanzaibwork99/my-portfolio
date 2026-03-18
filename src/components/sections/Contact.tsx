@@ -41,7 +41,7 @@ export function Contact() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-sm font-medium text-muted-foreground">Email</span>
-                  <a href="mailto:jahanzaibwork99@gmail.com" className="text-lg font-semibold hover:text-primary transition-colors">
+                  <a href="mailto:jahanzaibwork99@gmail.com" className="text-lg font-semibold hover:text-primary transition-colors break-all">
                     jahanzaibwork99@gmail.com
                   </a>
                 </div>
