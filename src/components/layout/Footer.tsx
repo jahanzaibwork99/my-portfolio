@@ -56,7 +56,7 @@ export function Footer() {
               </Button>
             </div>
             <p className="text-sm text-muted-foreground mt-4">
-              © {currentYear} Junior Web Developer. All rights reserved.
+              © {currentYear} Jahanzaib. All rights reserved.
             </p>
           </div>
 
