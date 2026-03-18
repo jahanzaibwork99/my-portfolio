@@ -10,12 +10,12 @@ const experiences = [
     location: 'Remote / On-site',
     duration: 'Oct 2025 - Present',
     description: [
-      'Developed and maintained highly responsive user interfaces using React.js and Tailwind CSS.',
-      'Architected and implemented robust backend APIs using PHP and the Laravel framework.',
-      'Contributed to the development of complex HRMS and CMS modules, accelerating internal processes.',
-      'Collaborated closely with design and product teams to translate Figma prototypes into functional code.',
+      'Built high-performance, SEO-optimized web applications using Next.js, React.js, and Tailwind CSS.',
+      'Developed interactive 3D experiences and smooth animations using Three.js Fiber and Framer Motion.',
+      'Architected robust backend APIs with Laravel and utilized Mockoon for efficient API mocking and testing.',
+      'Leveraged Shadcn UI and Radix UI to build accessible, premium-grade component libraries.',
     ],
-    skills: ['React', 'Laravel', 'Tailwind', 'REST APIs', 'Git'],
+    skills: ['Next.js', 'React', 'Laravel', 'Tailwind CSS', 'Shadcn UI', 'Three.js Fiber', 'Framer Motion', 'Mockoon'],
   },
   {
     role: 'Web Developer Intern',
