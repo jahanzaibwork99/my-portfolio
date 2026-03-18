@@ -60,18 +60,20 @@ export function Experience() {
               <div className="flex flex-col gap-2 mb-4">
                 <h3 className="text-xl font-bold text-foreground">{exp.role}</h3>
 
-                <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground font-medium">
-                  <span className="flex items-center gap-1 text-primary">
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground font-medium">
+                  <span className="flex items-center gap-1.5 text-primary font-bold">
                     {exp.company}
                   </span>
-                  <span className="flex items-center gap-1">
-                    <Calendar className="w-3.5 h-3.5" />
-                    {exp.duration}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <MapPin className="w-3.5 h-3.5" />
-                    {exp.location}
-                  </span>
+                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                    <span className="flex items-center gap-1.5 whitespace-nowrap">
+                      <Calendar className="w-3.5 h-3.5 text-primary/70" />
+                      {exp.duration}
+                    </span>
+                    <span className="flex items-center gap-1.5 whitespace-nowrap">
+                      <MapPin className="w-3.5 h-3.5 text-primary/70" />
+                      {exp.location}
+                    </span>
+                  </div>
                 </div>
               </div>
 
